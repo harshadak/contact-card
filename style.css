@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: fantasy;
+}
+div.container {
+    display: block;
+    padding: 20px;
+}
+form {
+    display: inline-block;
+    width: 400px;
+}
+form label,
+form input:last-child {
+    display: block;
+    margin: 5px;
+}
+div.contact-info {
+    width: 600px;
+    display: inline-block;
+    vertical-align: top;
+}
+div.contact-card {
+    width: 400px;
+    height: 150px;
+    border: 2px solid black;
+    margin-bottom: 15px;
+}
